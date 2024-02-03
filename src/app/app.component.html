@@ -227,6 +227,19 @@
       </svg>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+
+      <div class="container mx-auto text-center">
+        <h3 class="mb-4 text-3xl font-bold">Don't Laugh Challenge</h3>
+        <div id="product" class="mb-4 rounded-lg bg-gray-200 p-4">{{ product }}</div>
+        <button
+          id="productBtn"
+          class="rounded-lg bg-blue-500 px-4 py-2 text-white"
+          (click)="fetchProduct()"
+        >
+          Get Another Product
+        </button>
+      </div>
+
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
