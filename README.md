@@ -1,7 +1,4 @@
-# kk-hdd-prices
-
-### Static web page to scrape KK HDD/SSD prices and display in a convenient format with many metrics
-
+# KkHddPrices
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
